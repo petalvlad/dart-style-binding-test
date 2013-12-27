@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><script src="packages/shadow_dom/shadow_dom.debug.js"></script>
+<script src="packages/custom_element/custom-elements.debug.js"></script>
+<script src="packages/browser/interop.js"></script>
+
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="style_binding_test.css">
+    
+    
+    <script src="style_binding_test.html_bootstrap.dart.js"></script>
+    
+  </head>
+  <body><polymer-element name="dummy-polymer">
+  <template>
+    <div style="width: 500px; height: 300px; background-color: {{color}}" on-click="{{changeColor}}">
+      <div id="title">
+        <h1>{{title}}</h1>
+        <span>Clicks: {{clicks}}</span>
+      </div>
+      <input type="text">
+      <div class="external">Parent style block: background should be white</div>
+    </div>
+    
+  </template>
+  
+  
+ 
+</polymer-element><polymer-element name="container-polymer">
+  <template>
+    <div id="container">
+      
+    </div>
+    <button on-click="{{first}}">show first</button>
+    <button on-click="{{firstPrepared}}">show first prepared</button>
+    <button on-click="{{second}}">show second</button>
+  </template>
+  
+  
+ 
+</polymer-element>
+    <container-polymer></container-polymer>
+  
+
+</body></html>

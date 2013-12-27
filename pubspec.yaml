@@ -1,0 +1,7 @@
+name: style_binding_test
+description: A sample Polymer application
+dependencies:
+    polymer: any
+transformers:
+- polymer:
+    entry_points: web/style_binding_test.html

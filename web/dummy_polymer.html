@@ -1,0 +1,17 @@
+<polymer-element name='dummy-polymer'>
+  <template>
+    <div style="width: 500px; height: 300px; background-color: {{color}}" on-click="{{changeColor}}">
+      <div id="title">
+        <h1>{{title}}</h1>
+        <span>Clicks: {{clicks}}</span>
+      </div>
+      <input type="text" />
+      <div class="external">Parent style block: background should be white</div>
+    </div>
+    
+  </template>
+  
+  <script type="application/dart" src="dummy_polymer.dart">
+  </script>
+ 
+</polymer-element>

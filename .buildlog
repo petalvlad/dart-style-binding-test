@@ -1,0 +1,542 @@
+---
+build.dart --machine --full
+
+build.dart finished [1215 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart --removed=web/clickcounter.html
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":510,"charEnd":535}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/clickcounter.html" in package "style_binding_test".}
+build.dart finished [1163 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":510,"charEnd":535}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/clickcounter.html" in package "style_binding_test".}
+build.dart finished [1173 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":510,"charEnd":535}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/clickcounter.html" in package "style_binding_test".}
+build.dart finished [1262 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":510,"charEnd":535}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/clickcounter.html" in package "style_binding_test".}
+build.dart finished [1047 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":510,"charEnd":535}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/clickcounter.html" in package "style_binding_test".}
+build.dart finished [1116 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+[{"method":"error","params":{"file":"web/style_binding_test.html","message":"couldn't find imported asset \"web/dummy-polymer.html\" in package \"style_binding_test\".","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/style_binding_test.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":511,"charEnd":536}}]
+build failed with errors: {Transform polymer (Linter) on style_binding_test|web/style_binding_test.html threw error: couldn't find imported asset "web/dummy-polymer.html" in package "style_binding_test".}
+build.dart finished [1131 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1157 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1216 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1154 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1296 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1160 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1133 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1153 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1133 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1140 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1122 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1012 ms]
+
+---
+build.dart --machine --changed=web/container_element.dart
+
+build.dart finished [1148 ms]
+
+---
+build.dart --machine --removed=web/container_element.dart
+
+build.dart finished [1085 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1175 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1136 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1174 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1131 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1154 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1194 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1175 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1182 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1203 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1107 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1095 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1177 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1098 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1108 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1092 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1150 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1120 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1162 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1144 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1082 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1151 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1122 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1809 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1200 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1165 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1197 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1200 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1705 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1112 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1151 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1383 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1217 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1200 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1255 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1129 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1717 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1157 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1670 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1812 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1108 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1580 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1310 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1136 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.dart
+
+build.dart finished [1117 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1182 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.css
+
+build.dart finished [1683 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.css
+
+build.dart finished [1110 ms]
+
+---
+build.dart --machine --changed=web/dummy_polymer.html
+
+build.dart finished [1148 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1647 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1130 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1221 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1611 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1266 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1116 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1787 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [2478 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1458 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1586 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1319 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1416 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1917 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [2210 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [2843 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.html
+
+build.dart finished [1497 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1395 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1536 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1430 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1410 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1394 ms]
+
+---
+build.dart --machine --changed=web/container_polymer.dart
+
+build.dart finished [1401 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1419 ms]
+
+---
+build.dart --machine --changed=web/style_binding_test.html
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=build/style_binding_test.css --changed=build/style_binding_test.html --changed=b...
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=Gemfile --changed=config.ru
+
+build.dart finished [1303 ms]
+
+---
+build.dart --machine --changed=config.ru
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --changed=Gemfile
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=Gemfile.lock
+
+build.dart finished [1289 ms]
+
